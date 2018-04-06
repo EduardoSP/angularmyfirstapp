@@ -36,10 +36,8 @@ video minuto 28
 ## Installation Guide
 instalo node.js<br/>
 instalo angular cli con
-npm install -g @angular/cli
-<br/>
-para crear proyecto angular
-<br/>
+npm install -g @angular/cli<br/>
+para crear proyecto angular<br/>
 ng new PROJECT-NAME
 
 Ejecutar el servidor<br/>
