@@ -27,6 +27,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-Video Guide
+## Video Guide
 https://www.youtube.com/watch?v=Sx_2dOYOtes
+<br />
+video minuto 37
+<br/>
 
+## Installation Guide
+instalo node.js<br/>
+instalo angular cli con
+npm install -g @angular/cli<br/>
+para crear proyecto angular<br/>
+ng new PROJECT-NAME
+
+Ejecutar el servidor<br/>
+ng serve<br/>
+Ingresar a http://localhost:4200/
+
+## Notas:
+Luego de un decorador @component siempre va una clase
