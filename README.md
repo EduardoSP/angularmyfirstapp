@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Video Guide
 https://www.youtube.com/watch?v=Sx_2dOYOtes
 <br />
-video minuto 28
+video minuto 37
 <br/>
 
 ## Installation Guide
@@ -43,3 +43,6 @@ ng new PROJECT-NAME
 Ejecutar el servidor<br/>
 ng serve<br/>
 Ingresar a http://localhost:4200/
+
+## Notas:
+Luego de un decorador @component siempre va una clase
