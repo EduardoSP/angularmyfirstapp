@@ -15,10 +15,43 @@
     <a href="{{ webSite }}" target="_blank">
       Visita mi sitio web</a>
   </p>
-  <h3>Hobbies</h3>
-  <ul>
-    <li *ngFor="let hobby of hobbies">{{hobby}}</li>
-  </ul>
+
+  <button (click)="toggleHobbies()" class="btn" >
+    {{showHobbies ? 'Hide Hobbies' : 'Show Hobbies' }}
+  </button>
+
+  <div *ngIf="showHobbies" class="component2">
+    <h3>Hobbies</h3>
+    <ul>
+      <li *ngFor="let hobby of hobbies">{{hobby}}</li>
+    </ul>
+    <form (submit)="newHobby(hobby)">
+      <input
+        #hobby
+        type        ="text"
+        name        ="hobby"
+        placeholder = "hobby">
+    </form>
+  </div>
+
+  <div class="black">
+    <h3>Modify the Content</h3>
+    <label for="name">Name: </label>
+    <input
+      type        ="text"
+      name        ="name"
+      placeholder ="change the name"
+      [(ngModel)] = "name"
+    >
+    <label for="email">Email: </label>
+    <input
+      type        ="text"
+      name        ="email"
+      placeholder ="change the email"
+      [(ngModel)] = "email"
+    >
+
+  </div>
 
 <h2>Here are some links to help you start: </h2>
 <ul>
