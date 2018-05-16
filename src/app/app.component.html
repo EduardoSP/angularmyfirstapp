@@ -52,6 +52,19 @@
     >
 
   </div>
+  <h2>--------Films---------------</h2>
+  <div *ngFor="let film of films">
+    <h1>{{film.title}}</h1>
+    <p>{{film.director}}</p>
+
+  </div>
+  <h2>-----------------------------</h2>
+  <h3>Posts:</h3>
+  <div *ngFor="let post of posts">
+    <h1>{{post.title}}</h1>
+    <p>{{post.body}}</p>
+
+  </div>
 
 <h2>Here are some links to help you start: </h2>
 <ul>
