@@ -47,3 +47,4 @@ Ingresar a http://localhost:4200/
 
 ## Notas:
 Luego de un decorador @component siempre va una clase
+para el consumo de servicios se utilizo jsonplaceholder
